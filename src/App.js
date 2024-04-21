@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <Routes>
-      <Route path="/" element={<RegistrationForm />} />
+      <Route path="/commerce-react" element={<RegistrationForm />} />
       <Route path="/index2/" element={<SecondApp />} />
       </Routes>
     </Router>
